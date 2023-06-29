@@ -1,3 +1,6 @@
 # Multichannel-heart-sound-noise-reduction
 Multichannel heart sounds
+
 The multichannel heart sounds data set consists of multichannel heart sound signals from 15 subjects, with 72 channels of heart sound signals and one ECG signal. Sampling rate is 10 kHz. The first column of the data in the text file is the number of the acquisition card, and every second to 13th column thereafter is the signal acquisition channel of that acquisition card. There are 8 acquisition cards with 96 acquisition channels. Channels 1 to 72 are heart sound signals,  channel 73 is the synchronously acquired ECG signal, and channels 74 to 96 are the empty channels. A script file is provided to convert the text files in the dataset into heartbeat text files, with each column containing the heartbeat signal for one channel.
+
+The file 5_1.txt is used for the non-simulation experiments and the rest of the files are used for the simulation experiments.
